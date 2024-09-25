@@ -1,0 +1,27 @@
+// custom variable values
+.row > {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.modal {
+  --bs-modal-margin: 0px !important
+}
+// $navbar-brand-color: ;
+.navbar {
+  --bs-navbar-brand-color: white !important;
+  --bs-navbar-toggler-focus-width: 0 !important;
+}
+.nav-link {
+  --bs-nav-link-color: white;
+}
+.nav-link:hover {
+  color: black;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+// import bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+

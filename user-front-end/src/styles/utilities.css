@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .resp-h3 {
+      font-size: calc(1.4 * var(--base-font-size));
+    }
+    .resp-h4 {
+      font-size: calc(1.2 * var(--base-font-size));
+    }
+    .resp-title {
+      font-size: calc(0.87 * var(--base-font-size));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .resp-h3 {
+      font-size: calc(2 * var(--base-font-size));
+    }
+    .resp-h4 {
+      font-size: calc(1.5 * var(--base-font-size));
+    }
+    .resp-title {
+      font-size: calc(0.9 * var(--base-font-size));
+    }
+}
