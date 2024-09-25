@@ -31,24 +31,6 @@ public class EasyHits4u extends BaseAccount {
     private Integer expectedBanner;
     @Column(name = "expected_text_ad", columnDefinition = "INT DEFAULT 0", insertable = false)
     private Integer expectedTextAd;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column(name = "ori_price", columnDefinition = "DECIMAL(10,2) DEFAULT 0", insertable = false)
-    private Double oriPrice;
-    @Column(name = "percent_sale", columnDefinition = "INT DEFAULT 0", insertable = false)
-    private Integer percentSale;
-    @Column(name = "sale_end_time", columnDefinition = "DATETIME")
-    private LocalDateTime saleEndTime;
-    @Column(columnDefinition = "LONGBLOB")
-    private byte[] image;
-    @Column(name = "buyer_info", columnDefinition = "VARCHAR(255)")
-    private String buyerInfo;
-    @Column(columnDefinition = "ENUM('On sale', 'In progress', 'In stock') DEFAULT 'In stock'", insertable = false)
-    private String status;
-    public String getStatus() {
-        return status;
-    }
     @Column(columnDefinition = "TEXT")
     private String cookie;
 }
